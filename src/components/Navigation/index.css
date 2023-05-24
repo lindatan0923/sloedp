@@ -1,0 +1,71 @@
+.navigation {
+    transform: translateX(0px); 
+}
+.ion-menu .menu-inner {
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.25);
+    box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+.ion-menu>.menu-inner {
+    right: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: block;
+    width: 304px;
+    height: 100%;
+    contain: strict;
+}
+.menu-inner {
+    background: #fff;
+}
+.navigation ion-content {
+    height: 100vh!important;
+}
+.menu-inner>ion-content, .menu-inner>ion-footer, .menu-inner>ion-header {
+    position: absolute;
+    top: 0px;
+}
+
+.menu-inner>ion-header {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    /* height: 37px; */
+    height: 56px;
+}
+.menu-inner>ion-content {
+    /* top: 40px; */
+    top: 56px;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    z-index: 200;
+}
+.menu-inner ion-header ion-toolbar {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-inner ion-header ion-toolbar ion-title {
+    padding: 0 40px 1px;
+}
+/* .menu-inner {
+    display: flex;
+}
+.menu-inner ion-header {
+    padding: 0 20px;
+}
+.bar-button-menutoggle-md, .bar-button-menutoggle-md {
+    margin: 0 2px;
+    -webkit-box-ordinal-group: 8;
+    -webkit-order: 7;
+    -ms-flex-order: 7;
+    order: 7;
+    min-width: 28px;
+} */
+.menu-modal {
+    width: 70%;
+    border-right: 1px grey solid;
+}
